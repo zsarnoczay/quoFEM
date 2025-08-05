@@ -646,7 +646,7 @@ WorkflowApp_quoFEM::createCitation(QJsonObject &citation, QString citeFile) {
     if(docC.isObject()) {
       citation = docC.object();        
     }  else {
-      qDebug() << "WorkflowdAppEE_UQ citation text is not valid JSON: \n" << cit << endl;
+      qDebug() << "WorkflowdAppEE_UQ citation text is not valid JSON: \n" << cit << Qt::endl;
     }
   }
   
