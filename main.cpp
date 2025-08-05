@@ -52,7 +52,6 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 #include <WorkflowCLI.h>
 #include <GoogleAnalytics.h>
 #include <TapisV3.h>
-#include <QtWebEngine>
 #include <Utils/FileOperations.h>
 
 
@@ -138,7 +137,6 @@ int main(int argc, char *argv[])
   //
 
   QApplication app(argc, argv);
-  QtWebEngine::initialize();
 
     //
     // create a remote interface
