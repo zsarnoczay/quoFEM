@@ -11,3 +11,5 @@ matplotlib
 paramz
 openseespy
 plotly
+emukit
+tables
