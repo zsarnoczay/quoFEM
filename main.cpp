@@ -47,8 +47,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 #include <QProcessEnvironment>
 #include <QWebEngineView>
 
+#include "WorkflowApp_quoFEM.h"
+
 #include <MainWindowWorkflowApp.h>
-#include <WorkflowApp_quoFEM.h>
 #include <WorkflowCLI.h>
 #include <GoogleAnalytics.h>
 #include <TapisV3.h>
@@ -138,10 +139,6 @@ int main(int argc, char *argv[])
   //
 
   QApplication app(argc, argv);
-<<<<<<< HEAD
-=======
-  //QtWebEngine::initialize();
->>>>>>> 7725070ec79735fad5cab40e149a5f17a1a662f1
 
     //
     // create a remote interface
